@@ -1,0 +1,5 @@
+---
+applications:
+- name: test-ruby-padrino
+  command: bundle exec unicorn -p $PORT -c ./config/unicorn.rb 
+  memory: 256M

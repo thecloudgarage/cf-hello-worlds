@@ -1,0 +1,6 @@
+---
+applications:
+- name: java-jboss
+  path: jboss-as-helloworld.war
+  buildpacks:
+  - https://github.com/cloudfoundry-community/jboss-buildpack.git
