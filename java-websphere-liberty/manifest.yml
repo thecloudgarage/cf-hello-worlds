@@ -3,6 +3,8 @@ applications:
 - name: websphere-liberty-helloworld
   random-route: true
   path: target/JavaHelloWorldApp.war
+  buildpacks:
+  - https://github.com/cloudfoundry/ibm-websphere-liberty-buildpack.git
   env:
     IBM_JVM_LICENSE: L-SMKR-AVSEUH
-    IBM_LIBERTY_LICENSE: L-CTUR-BNGKSP
+    IBM_LIBERTY_LICENSE: L-CTUR-BS3K2V
